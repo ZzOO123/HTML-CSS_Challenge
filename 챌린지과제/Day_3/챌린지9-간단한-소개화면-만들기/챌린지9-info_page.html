@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>챌린지9 - 간단한 소개 화면</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 16px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background:linear-gradient(180deg, rgba(1, 26, 138, 0.919), rgb(1, 38, 201), rgb(1, 124, 247), rgb(2, 180, 235), rgb(5, 239, 227), rgba(1, 187, 29, 0.76))
+        }
+        .flex{
+            display: flex;
+        }
+        .main{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 150px;
+        }
+    </style>
+    <link href="info_page.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content flex">
+                <div class="header-content_logo">
+                    <img src="images/stardew.webp" alt="스타듀밸리 로고 사진">
+                </div>
+                <div class="header-content_text">
+                    <p>스 타 듀 밸 리&nbsp;&nbsp;&nbsp;일 지&nbsp;&nbsp;🌾</p>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="side_bar">
+                <nav class="side_menu">
+                    <ul>
+                        <li><a href="#" class="s_menu1">👒&nbsp;&nbsp;&nbsp;농장 주인 소개</a></li>
+                        <li><a href="#" class="s_menu2">🔍&nbsp;&nbsp;&nbsp;만능 스듀 사전</a></li>
+                        <li><a href="#" class="s_menu3">🌾&nbsp;&nbsp;&nbsp;농사 일지</a></li>
+                        <li><a href="#" class="s_menu4">💎&nbsp;&nbsp;&nbsp;사냥 일지</a></li>
+                        <li><a href="#" class="s_menu5">🐟&nbsp;&nbsp;&nbsp;낚시 일지</a></li>
+                    </ul>
+                </nav>
+                <div class="stardew_down">
+                    <table>
+                        <tr>
+                            <th colspan="4">
+                                <p>머? 스듀가 하고 싶다고?!</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://apps.apple.com/us/app/stardew-valley/id1406710800" target="_blank">
+                                    <img src="images/iOS_logo.png" alt="iOS_logo">
+                                </a>
+                            </td>
+                            <td></td><td></td>
+                            <td>
+                                <a href="https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley&hl=en_US&pli=1" target="_blank">
+                                    <img src="images/android_logo.png" alt="android_logo">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank">
+                                    <img src="images/STEAM_logo.png" alt="STEAM_logo">
+                                </a>
+                            </td>
+                            <td></td><td></td>
+                            <td>
+                                <a href="https://www.playstation.com/en-us/games/stardew-valley/" target="_blank">
+                                    <img src="images/PS4_logo.png" alt="PS4_logo">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://www.gog.com/game/stardew_valley" target="_blank">
+                                    <img src="images/GOG_logo.png" alt="GOG_logo">
+                                </a>
+                            </td>
+                            <td></td><td></td>
+                            <td>
+                                <a href="https://www.nintendo.com/us/store/products/stardew-valley-switch/" target="_blank">
+                                    <img src="images/NintendoSwitch_logo.png" alt="NintendoSwitch_logo">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://www.humblebundle.com/store/stardew-valley" target="_blank">
+                                    <img src="images/HUMBLESTORE_logo.png" alt="HUMBLESTORE_logo">
+                                </a>
+                            </td>
+                            <td></td><td></td>
+                            <td>
+                                <a href="https://www.xbox.com/en-gb/games/store/stardew-valley/c3d891z6tnqm" target="_blank">
+                                    <img src="images/XBOXOne_logo.png" alt="XBOXOne_logo">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="main-content1">
+                    <div class="main-content_img">
+                        <img src="images/main1.png" alt="봄농장">
+                    </div>
+                    <div class="main-content_text">
+                        <p class="main_p1">"&nbsp;&nbsp;농사&nbsp;&nbsp;"</p>
+                    </div>
+                </div>
+                <div class="main-content2">
+                    <div class="main-content_img">
+                        <img src="images/main2.png" alt="가을농장">
+                    </div>
+                    <div class="main-content_text">
+                        <p class="main_p2">"&nbsp;&nbsp;놀거리&nbsp;&nbsp;"</p>
+                    </div>
+                </div>
+                <div class="main-content3">
+                    <div class="main-content_img">
+                        <img src="images/main3.png" alt="겨울에 말 타기">
+                    </div>
+                    <div class="main-content_text">
+                        <p class="main_p3">"&nbsp;&nbsp;다양한 콘텐츠&nbsp;&nbsp;"</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="developed_logo">
+                <a href="https://www.stardewvalley.net/" target="_blank">
+                    <img src="images/developed.gif" alt="스타듀밸리 제작사 로고, 공홈 가기">
+                </a>
+            </div>
+            <p>스타듀밸리 SNS</p>
+            <div class="stardew-sns">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="https://discord.com/invite/StardewValley" target="_blank">
+                                <img src="images/Discord new 2021.png" alt="스타듀밸리 디스코드 채널 가기">
+                                <p>스타듀밸리 디스코드 참여하기</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/concernedape" target="_blank">
+                                <img src="images/twiter.png" alt="스타듀밸리 트위터 채널 가기">
+                                <p>스타듀밸리 개발자 트위터 보러 가기</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

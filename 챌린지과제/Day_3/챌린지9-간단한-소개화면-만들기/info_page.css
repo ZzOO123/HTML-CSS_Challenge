@@ -1,0 +1,164 @@
+@font-face{
+    font-family:'bitbit';
+    src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+}
+.container{
+    width: 2000px;
+    border-radius: 200px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    background-color: white;
+}
+
+/* head */
+.header{
+    padding-top: 40px;
+    padding-left: 200px;
+    background-color: #eaff0078;
+    border-radius: 200px 200px 0 0;
+    border-bottom: 5px solid rgb(94, 36, 19);
+}
+.header-content{
+    height: 300px;
+}
+.header-content_logo > img{
+    width: 500px;
+    height: 280px;
+}
+.header-content_text{
+    width: 900px;
+    margin-left: 200px;
+}
+.header-content_text > p{
+    font-size: 90px;
+    font-family:'bitbit';
+    color: rgb(94, 36, 19);
+}
+
+/* main-side */
+.side_bar{
+    width: 500px;
+    height: 900px;
+}
+.side_menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    border-bottom: 5px solid rgb(77, 30, 16);
+}
+.side_menu ul li{
+    margin: 100px 0;
+    font-family:'bitbit';
+    font-size: 60px;
+    color: rgb(77, 30, 16);
+}
+.side_menu ul li a, a:link, a:visited{
+    text-decoration: none;
+    color: rgb(77, 30, 16);
+}
+.s_menu1:hover, .s_menu1:active{
+    color: rgb(253, 47, 157);
+}
+.s_menu2:hover, .s_menu2:active{
+    color: rgb(254, 133, 26);
+}
+.s_menu3:hover, .s_menu3:active{
+    color: rgb(28, 198, 71);
+}
+.s_menu4:hover, .s_menu4:active{
+    color: rgb(115, 21, 192);
+}
+.s_menu5:hover, .s_menu5:active{
+    color: rgb(2, 139, 251);
+}
+table{
+    text-align: center;
+}
+.stardew_down table tr th{
+    font-family:'bitbit';
+    font-size:54px;
+    text-align: center;
+    background: linear-gradient(60deg, #ff0000, #ff9500, #fff700, #0dff00, #006aff, #6f00ff) ;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.stardew_down table tr td{
+    width: 150px;
+    height: 230px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+/* main */
+.main-content{
+    justify-content: center;
+}
+.main-content1 img, .main-content2 img, .main-content3 img{
+    width: 900px;
+    height: 600px;
+    border-radius: 50px;
+}
+.main-content_text{
+    text-align: center;
+    font-size: 70px;
+    font-family:'bitbit';
+}
+.main_p1{
+    background: linear-gradient(to right, #b6e35b, #45B649) ;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.main_p2{
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59) ;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.main_p3{
+    background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9) ;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+footer{
+    height: 400px;
+    border-top: 5px solid rgb(77, 30, 16);
+}
+.developed_logo{
+    width: 700px;
+    height: 300px;
+    padding: 30px;
+    margin: 40px 80px 0 200px;
+    float: left;
+}
+.developed_logo + p{
+    float: left;
+    padding-top: 120px;
+    font-size: 50px;
+    font-family:'bitbit';
+    background: linear-gradient(60deg, #4f7bfe, #5aaaff, #a699ea, #faa178) ;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.stardew-sns{
+    float: left;
+    margin-left: 50px;
+}
+.stardew-sns nav ul li{
+    list-style-type: none;
+    text-align: center;
+    font-size: 30px;
+    font-family:'bitbit';
+    padding-top: 10px;
+}
+.stardew-sns ul li:nth-child(1) img{
+    width: 120px;
+    height: 90px;
+}
+.stardew-sns ul li:nth-child(1) a:hover, a:active{
+    color: #5862ec;
+}
+.stardew-sns ul li:nth-child(2) img{
+    width: 70px;
+    height: 50px;
+}
+.stardew-sns ul li:nth-child(2) a:hover, a:active{
+    color: #51a9dc;
+}
