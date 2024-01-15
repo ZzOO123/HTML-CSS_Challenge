@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>챌린지14 - 간단한 반응형웹 만들기</title>
+    <style>
+        @font-face{
+            font-family:'bitbit';
+            src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+        }   
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            height: 100vh;
+        }
+        p{
+            font-family:'bitbit';
+            font-size: 70px;
+            color: orange;
+        }
+        div.text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .back1{
+            background: linear-gradient(to right, #12c2e9, #c471ed, #ff86d5) ;
+            color: transparent;
+            -webkit-background-clip: text;
+        }
+        .back2{
+            background: linear-gradient(to right, #f7b733, #fc4a1a) ;
+            color: transparent;
+            -webkit-background-clip: text;
+        }
+        .back3{
+            background: linear-gradient(to right, #8E0E00, #1F1C18) ;
+            color: transparent;
+            -webkit-background-clip: text;
+        }
+
+        @media screen and (min-width: 2100px){
+            body{
+                background: linear-gradient(100deg, rgb(200, 201, 255), rgb(200, 245, 254), rgb(255, 210, 247), rgb(255, 255, 220));
+            }
+            .back2, .back3, .back4{
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 2100px) and (min-width: 1400px){
+            body{
+                background: linear-gradient(100deg, #FFEEEE, #DDEFBB);
+            }
+            .back1, .back3, .back4{
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 1400px) and (min-width: 800px){
+            body{
+                background: linear-gradient(100deg, #000000, #434343);
+
+            }
+            .back1, .back2, .back4{
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 800px) and (min-width: 300px){
+            body{
+                background-color: white;
+
+            }
+            .back1, .back2, .back3{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <p class="back1">배경이 바뀝니다!</p>
+        <p class="back2">짜잔!</p>
+        <p class="back3">신기하죠?!<br>넷플릭스 색이랬는데 ..? 잉?</p>
+        <p class="back4">.? 전 신기하네요! 👍</p>
+    </div>
+</body>
+</html>
+</body>
+</html>
